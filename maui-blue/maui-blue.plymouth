@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Maui Blue
+Description=A Maui Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/maui-blue
+ScriptFile=/usr/share/plymouth/themes/maui-blue/maui-blue.script
+
