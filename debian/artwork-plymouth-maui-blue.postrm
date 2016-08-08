@@ -31,6 +31,9 @@ case "$1" in
     remove)
 	update-alternatives \
 		--remove default.plymouth /usr/share/plymouth/themes/maui-blue/maui-blue.plymouth
+		
+	update-alternatives \
+		--remove text.plymouth /usr/share/plymouth/themes/maui-text/maui-text.plymouth	
 
 	if which update-initramfs >/dev/null 2>&1
 	then
